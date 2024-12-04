@@ -1,0 +1,19 @@
+=== NMAP Scan Results ===
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-04 22:58 MSK
+Nmap scan report for 192.168.1.105
+Host is up (0.00050s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+2179/tcp open  vmrdp
+
+Nmap done: 1 IP address (1 host up) scanned in 19.81 seconds
+=== TCPDUMP Results ===
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+22:58:29.823498 ARP, Request who-has 172.29.76.119 (00:15:5d:86:a4:c8) tell 172.29.64.1, length 28
+22:58:29.823515 ARP, Reply 172.29.76.119 is-at 00:15:5d:86:a4:c8, length 28
+
+2 packets captured
+2 packets received by filter
+0 packets dropped by kernel
